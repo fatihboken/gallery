@@ -20,22 +20,7 @@ nav {
   top: 0;
 }
 
-.photo h3 {
-  font-size: 24px;
-  position: absolute;
-  background: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  /* backdrop-filter: blur(4px); */
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  padding: 10px;
-  margin: 10px;
-  visibility: hidden;
-}
 
-.photo:hover h3{
-    visibility: visible;
-}
 
 nav h1 {
   font-size: 36px;
@@ -83,6 +68,7 @@ main {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 350px;
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -92,6 +78,23 @@ main {
 .photo img {
   width: 100%;
   border-radius: 5px;
+}
+
+.photo h3 {
+  font-size: 24px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  /* backdrop-filter: blur(4px); */
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 10px;
+  margin: 10px;
+  visibility: hidden;
+}
+
+.photo:hover h3{
+    visibility: visible;
 }
 
 
